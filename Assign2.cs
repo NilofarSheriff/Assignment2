@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -29,7 +29,7 @@ namespace Assign1
                 {
 
                     Student stud = new Student();
-                    string[] splitdata = student.Split(' ');
+                    string[] splitdata = student.Split(',');
                     stud.StudentID = Convert.ToInt32(splitdata[0]);
                     stud.StudentName = splitdata[1];
                     stud.Age = Convert.ToInt32(splitdata[2]);
